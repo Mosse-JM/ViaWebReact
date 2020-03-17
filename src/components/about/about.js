@@ -84,7 +84,7 @@ class About extends React.Component {
                     <br/>
                     The rest was developed first in Angular then by React, beside Bootstrap, Sass + WebPack and you can clone the
                     <a href="https://github.com/Mosse-JM/ViaWebAngular.git" target="_blank" rel="noopener noreferrer" className="btn btn-link">Angular Files</a> &
-                    <a href="https://github.com/Mosse-JM/ViaWebAPI.git" target="_blank" rel="noopener noreferrer" className="btn btn-link">React Files</a>
+                    <a href="https://github.com/Mosse-JM/ViaWebReact.git" target="_blank" rel="noopener noreferrer" className="btn btn-link">React Files</a>
                     <button type="button" className="btn btn-link">Angular Files</button>
                     <br/> Finally the API was developed by ASP.Net and C# + SQL and SQlite, find the files here:
                     <a href="https://github.com/Mosse-JM/ViaWebAPI.git" target="_blank" rel="noopener noreferrer" className="btn btn-link">API Files</a> 
