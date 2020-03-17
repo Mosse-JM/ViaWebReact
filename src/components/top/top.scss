@@ -1,0 +1,142 @@
+
+/*------------------------------the  preview(image,script)-------------------------------------------------------------------------------*/
+      
+#top{
+    background-color:#FF373D;/*border:1px solid;*/ 
+    text-align:center; 
+    width:100%;height:auto; 
+    margin-left:auto; margin-right:auto; 
+    #preview{
+        background-color:#808000;/*border:1px solid;*/ 
+        width:93.8%; 
+        position:fixed;
+        margin-left:3.1%;margin-right:3.1%;  
+        padding-top:50px;
+        #preview_image{
+            background-color:white;/*border:1px solid;*/
+            //max-width:1200px;max-height:550px; 
+            #myImg{
+                width:100%; height:auto; 
+                margin-left:auto; margin-right:auto;
+            } 
+        }
+        #preview_script{
+            width:310px;
+            position:absolute;top:70%;left:33%;
+            #subject{ 
+                width:100%; height:auto;
+                padding-left:5px; padding-right:5px; padding-top: none;
+                margin: none;
+                p{
+                    font-size: 50px; font-weight:700;
+                    margin: none; padding: none;
+                } 
+            }
+            #read_this{ 
+                border:1px solid;
+                max-width:150px; max-height:30px; 
+                padding:none; 
+                margin-left:80px; margin-top:none;  
+                p{
+                    font-size: 13px;
+                    width:100%; height:auto; 
+                }
+
+            }
+        } 
+    }
+}
+
+.blur{
+    opacity: 0.7;
+}
+
+@media only screen and (max-width:970px) {
+
+    #top{
+        #preview{
+            #preview_script{
+                position:absolute;top:70;left:32%;
+                #subject{ 
+                    width:100%; height:auto;
+                    padding-left:4px; padding-right:4px; 
+                    p{
+                        font-size: 40px; font-weight:700;
+                    } 
+                }
+                #read_this{ 
+                    border:1px solid; 
+                    max-width:120px; max-height:30px; 
+                    padding:3px; 
+                    margin-left:80px; margin-top:10px; 
+                    p{
+                        width:100%; height:auto; 
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:700px) {
+
+
+    #top{
+        #preview{
+            #preview_script{
+                width:200px;
+                position:absolute;top:70%;left:35%;
+                #subject{ 
+                    width:100%; height:auto;
+                    padding-left:2px; padding-right:2px; 
+                    p{
+                        font-size: 30px; font-weight:700;
+                    } 
+                }
+                #read_this{ 
+                    border:1px solid;
+                    max-width:100px; max-height:30px; 
+                    padding:2px; 
+                    margin-left:47px; margin-top:5px; 
+                    p{
+                        width:100%; height:auto; 
+                        font-size: 10px;
+                    } 
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:400px) {
+
+    #top{
+        #preview{
+            width:100%; 
+            position: relative;
+            margin-left:0%;margin-right:0%;
+            #preview_script{
+                width:170px;
+                position:absolute;top:70%;left:25%;
+                #subject{ 
+                    width:100%; height:auto;
+                    padding-left:2px; padding-right:2px;  
+                    p{
+                        font-size:22px; font-weight:700;
+                    }
+                }
+                #read_this{ 
+                    border:1px solid;
+                    max-width:100px; max-height:30px; 
+                    padding:1px; 
+                    margin-left:37px; margin-top:3px; 
+                    p{
+                        width:100%; height:auto; 
+                        font-size:10px;
+                    } 
+                }
+            }
+        }
+    }
+}

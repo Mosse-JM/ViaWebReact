@@ -1,0 +1,23 @@
+
+#posts{
+    width: 80%;
+    margin-top: 30px;
+    padding: 15px 15px;
+    ul{
+        list-style-type: none;
+        margin: 0 ; padding: 0;
+        li{
+            background: rgb(181, 194, 202);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 8px;
+
+            a{
+                font-size: 1.5em;
+                text-decoration: none;
+                font-weight: bold;
+                color: rgb(17, 80, 173);
+            }
+        }
+    }
+}

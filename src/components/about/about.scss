@@ -1,0 +1,40 @@
+#about_menu{
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    float: left;
+    margin-top: 50px;
+    #brief{
+        width: 30%;
+        float: left;
+        margin-top: 40px;
+        padding: 35px;
+    }
+    #mid{
+        width: 40%;
+        float: left;
+        padding: 55px;
+        
+        #pic{
+            width: 80%;
+            padding: 35px;
+            padding-top: 3%;
+            img{
+                width: 90%
+            }
+        }
+        
+    }
+    #last_column{
+        width: 30%;
+        float: left;
+        padding: 25px;
+                img{
+            width: 80%
+        }
+        form{
+            padding: 10px;
+        }
+
+    }
+
+}
